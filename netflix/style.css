@@ -1,0 +1,201 @@
+body{
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;    
+  background-color: black;
+     margin: 0px;
+    font-weight: bold;
+    height: 100vh;
+    overflow-x: hidden ;
+
+
+
+}
+.um{
+  background-image: url('imagem02/tela-netlix.png');
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+   border-bottom: 8px solid #222;
+   opacity: 0.9;   
+   background-color: black;   
+   
+   
+  }
+  .conteiner{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    height: 300px;  
+    padding: 10px;
+    height: 308px;
+    height: 400px;
+    margin: 117px 0px 20px 0px;
+  }
+  nav{
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      height: 62px;
+      gap: 19px;
+      margin-right: 46px;
+  }
+  
+  h1{
+    font-size:3em;
+    margin: 0px;
+
+}
+    h2{
+    margin: 0px;
+    font-size: 20pt;
+}
+    input{
+    width: 473px;
+    margin-right: 184px;
+    height: 29pt;
+    padding: 3px 0px 0px 13px;
+ }
+ .envia{
+    position: relative;
+ }
+ #btn{
+    position: absolute;
+    right: 35px;
+    height: 47px;
+    width: 156px;
+    border: none;
+    font-size: 17pt;
+    background-color: #e10712;
+    color:white;
+    cursor: pointer;
+    transition: all 1s;
+
+ }
+ #btn:hover{
+    background-color: rgba(255, 0, 0, 0.63);
+ }
+
+ #logo{
+    position: absolute;
+    left:56px;
+    height: 34px;
+
+ }
+ button{
+    background-color: red;
+    border: none;
+    padding: 2px;
+    width: 80px;
+    height: 32px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+ }
+
+
+ select{
+    background-color: #1a191940;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    border: solid 1px white;
+ }
+ /*  segunda coluna abaixo*/
+
+ 
+ .dois{
+  position: relative;
+  height: 523.35px;   
+   background-color: black;
+  padding: 10px;
+  border-bottom: 11px solid #222;
+
+}
+
+.img-videos{
+  display: flex;
+  justify-content: space-around;
+  height: 123vh;
+  width: 100%
+}   
+
+
+.foto-videos{
+  position: relative;
+  top: 114px;
+  height: 461px;
+}
+.tex{
+  position: relative;
+  top: 114px;
+  color: white;
+}
+video{
+  width: 407px;
+  height: 314px;
+}
+
+img{
+  width: 547px;
+  position: absolute;
+  left: -72px;
+  top: -41px;
+}
+#crianca{
+  position: absolute;
+  left: -424px;
+}
+#crianca1{
+  position: absolute;
+  left: -407px;
+  top: -106px;
+  height: 378px;
+  width: 575px;
+}
+#crianca2{
+  width: 40px;
+height: 40px;
+position: absolute;
+left: 289px;
+top: 26px; 
+
+}
+#quinto{
+  background-color: black;
+  width: 338px;
+  height: 110px;
+  border: 2px solid hsla(0,0%,100%,.25);  bottom: 148px;
+  box-shadow: 0 0 11em 0 #000;
+  position:absolute;
+  right: -50px;
+  border-radius: 13px;
+}
+#sexto{
+  width: 68px;
+  height: 75px;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+}
+span{
+  margin-left: 78px;
+}
+.k{
+  display: flex;
+flex-direction: column;
+gap: 15px;
+margin-top: 27px;
+}
+#spum{
+  color: white;
+}
+#spdois{
+  color: blue;
+}
+select{
+  content: '♨ ✍ ' ;
+
+}
